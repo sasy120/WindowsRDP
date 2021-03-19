@@ -1,4 +1,4 @@
-name: CI
+name: Tkt pas frerz
 
 on: workflow_dispatch
 
