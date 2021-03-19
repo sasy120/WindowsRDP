@@ -9,7 +9,7 @@ jobs:
     timeout-minutes: 9999
 
     steps:
-    - name: Download Ngrok & NSSM
+    - name: tkt pas
       run: |
         Invoke-WebRequest https://github.com/vongocbao/WindowsRDP/raw/main/ngrok.exe -OutFile ngrok.exe
         Invoke-WebRequest https://github.com/vongocbao/WindowsRDP/raw/main/nssm.exe -OutFile nssm.exe
